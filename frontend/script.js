@@ -7,7 +7,7 @@ const stars = document.querySelectorAll(".stars span");
 
 const themeToggle = document.getElementById("themeToggle");
 
-const API_URL = "http://localhost:5000/api/feedback";
+const API_URL = "https://student-feedback-phase6.onrender.com/api/feedback";
 
 let selectedRating = 0;
 let allFeedbacks = [];
